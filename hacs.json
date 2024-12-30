@@ -1,0 +1,8 @@
+{
+  "name": "Yasno Outages",
+  "content_in_root": false,
+  "domains": ["calendar"],
+  "country": ["UA"],
+  "homeassistant": "2023.1.0",
+  "iot_class": "cloud_polling"
+}
