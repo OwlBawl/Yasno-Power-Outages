@@ -2,9 +2,10 @@
     "domain": "yasno_outages",
     "name": "Yasno Power Outages",
     "dependencies": ["calendar"],
-    "codeowners": [],
+    "codeowners": ["@OwlBawl"],
+    "documentation": "https://github.com/OwlBawl/yasno_outages",
     "requirements": ["requests"],
-    "version": "1.0.0",
+    "version": "0.5.0",
     "iot_class": "cloud_polling",
     "config_flow": true
 }
