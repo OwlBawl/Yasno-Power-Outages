@@ -149,7 +149,7 @@ class YasnoOutagesCalendar(CoordinatorEntity, CalendarEntity):
         
         if not events:
             self._internal_state = STATE_NO_SCHEDULE
-            return STATE_OFF
+            return STATE_ON
             
         # Check for current outage
         current_outage = next(
